@@ -1,10 +1,9 @@
-def hello(name):
-    return f"Hello, {name}!"
+def greet(name):
+    return f"Hello, {name}! Welcome to the lab."
 
-def goodbye(name):
-    return f"Goodbye, {name}!"
+def farewell(name):
+    return f"Goodbye, {name}, see you next time!"
 
-def thank_you(name):
-    return f"Thank you, {name}!"
-!git add greetings.py
-!git commit -m "Add thank you greeting function"
+if __name__ == "__main__":
+    print(greet("World"))
+    print(farewell("World"))
