@@ -1,3 +1,4 @@
+# Edited on the GitHub website
 def greet(name):
     return f"Hi, {name}! Glad to have you here."
 
